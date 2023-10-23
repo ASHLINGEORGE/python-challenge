@@ -7,7 +7,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Set the working directory to the directory of your CSV file and set the path for the csv file.
 os.chdir(current_dir)
-csv_file_path = "Resources\election_data.csv"  # Path for CSV file
+csv_file_path = "Resources/election_data.csv"  # Path for CSV file
 
 #Intialize the variables.
 total_votes = 0 
